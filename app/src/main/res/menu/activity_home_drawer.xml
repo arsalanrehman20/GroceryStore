@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/icon_profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@drawable/icon_order"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@drawable/icon_cart"
+            android:title="Cart" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="Logout" />
+    </group>
+
+
+    <item android:title="Products">
+        <menu>
+            <item
+                android:id="@+id/nav_fruits"
+                android:icon="@drawable/icon_fruit"
+                android:title="Fruits" />
+            <item
+                android:id="@+id/nav_vegetables"
+                android:icon="@drawable/icon_vegetables"
+                android:title="Vegetables" />
+            <item
+                android:id="@+id/nav_electronics"
+                android:icon="@drawable/icon_electronics"
+                android:title="Electronics" />
+            <item
+                android:id="@+id/nav_grocery"
+                android:icon="@drawable/icon_grocery"
+                android:title="Grocery" />
+            <item
+                android:id="@+id/nav_personal_care"
+                android:icon="@drawable/icon_personal_care"
+                android:title="Personal Care" />
+            <item
+                android:id="@+id/nav_clothes_shoes"
+                android:icon="@drawable/icon_clothes_shoes"
+                android:title="Clothes &amp; Shoes" />
+            <item
+                android:id="@+id/nav_jewellery"
+                android:icon="@drawable/icon_jewellery"
+                android:title="Jewellery" />
+            <item
+                android:id="@+id/nav_cosmetics"
+                android:icon="@drawable/icon_cosmetics"
+                android:title="Cosmetics" />
+        </menu>
+    </item>
+
+
+    <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    -->
+</menu>
